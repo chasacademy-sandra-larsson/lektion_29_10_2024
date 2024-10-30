@@ -84,6 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
             } else {
                 displayText += "_";
             }
+            //displayText += guessLetters.includes(letter) ? letter : "_"; // Ternary operator och är inline sätt för if/else
         }
 
         wordElement.innerText = displayText;
